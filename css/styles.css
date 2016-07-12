@@ -1,43 +1,160 @@
 body {
 	font-family: "Heebo",sans-serif;
-	color:#2d3c49;
+	color: #2d3c49;
 	font-weight: 300;
 }
-h2,h3 {
+
+h2,
+h3 {
 	font-size: 36px;
     font-weight: 400;
     letter-spacing: 2px;
 }
-h2.text-muted {
-	color:#7d97ad;
+
+.text-muted {
+	color: #7d97ad;
 }
+
+.text-thin {
+	font-weight: 100;
+}
+
 @media screen and (max-width: 991px) and (min-width: 768px) {
 	.img-project {
 		max-height: 200px;
 	}
 }
-hr {
-    border-top: 5px solid #7d97ad;
-	margin-top: 0px;    
+
+.big-project-img{
+    margin: 15px 0;
 }
+
+.main-article {
+	position: relative;
+    margin-top: 175px;
+}
+
+footer {
+	text-align: center;
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    bottom: 0;
+}
+
+.fake-footer {
+	height: 50px;
+	width: 100%;
+}
+
+/* Header*/
+header {
+    position: fixed;
+    height: 150px;
+    width: 100%;
+    top: -30px;
+    background-color: #fff;
+    z-index: 1;
+}
+
 .header-row {
     margin-top: 20px;
 }
-#logo-div {
-	min-width: 150px;
-	overflow-y:hidden;
+
+.header-row > .text-right {
+	margin-top: 10px;
 }
-.text-thin {
-	font-weight: 100;
+.header-row > div > h1 {
+	margin-bottom: 0px;
 }
-.title-super {
-	font-size:60px;
+
+.header-row > div > h4 {
+	margin-top: 0px;
 }
+
+
+/* Title */
+.logo-div {
+	min-width: 95px;
+	overflow-y: hidden;
+}
+
 .title-logo {
     margin-left: -35px;
 	width: 150px;
 	height: 150px;
 }
-#big-project-img{
-    margin: 15px 0;
+
+.title-super {
+	font-size: 60px;
+}
+
+@media screen and (min-width: 631px) {
+	.title-super {
+		font-size: 60px;
+	}
+}
+
+@media screen and (min-width: 431px) and (max-width: 630px) {
+	.title-super {
+		font-size: 40px;
+		margin-top: 30px;
+	}
+}
+
+@media screen and (max-width: 430px) {
+	.title-super {
+		font-size: 30px;
+		margin-top: 35px;
+	}
+}
+
+
+/* navbar */
+.navbar-default {
+	background-color: #02b3e4;
+	top: 110px;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #2d3c49;
+}
+
+.navbar-default .navbar-brand {
+    color: #2d3c49;
+}
+
+.navbar-default .navbar-toggle:hover {
+    background-color: #7d97ad;
+}
+
+.navbar-default .navbar-toggle {
+    border-color: #7d97ad;
+}
+
+
+/* Zocial */
+.zocial:before {
+  color: black;
+  display: inline-block;
+  font-family: 'zocial', sans-serif;
+  text-shadow: 3px 3px 3px #aaa;
+  width: 2em;
+}
+
+.zocial-div {
+  line-height: 2em;
+}
+
+a:hover .zocial-div:before {
+  color: #3d85c6;
+}
+
+.zocial-div a {
+  margin: 0 1em 0 0;
+}
+
+.zocial-div a:last-of-type {
+  margin: 0;
 }
