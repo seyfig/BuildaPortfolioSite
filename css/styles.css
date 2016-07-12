@@ -1,0 +1,43 @@
+body {
+	font-family: "Heebo",sans-serif;
+	color:#2d3c49;
+	font-weight: 300;
+}
+h2,h3 {
+	font-size: 36px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+h2.text-muted {
+	color:#7d97ad;
+}
+@media screen and (max-width: 991px) and (min-width: 768px) {
+	.img-project {
+		max-height: 200px;
+	}
+}
+hr {
+    border-top: 5px solid #7d97ad;
+	margin-top: 0px;    
+}
+.header-row {
+    margin-top: 20px;
+}
+#logo-div {
+	min-width: 150px;
+	overflow-y:hidden;
+}
+.text-thin {
+	font-weight: 100;
+}
+.title-super {
+	font-size:60px;
+}
+.title-logo {
+    margin-left: -35px;
+	width: 150px;
+	height: 150px;
+}
+#big-project-img{
+    margin: 15px 0;
+}

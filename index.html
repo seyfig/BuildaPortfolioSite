@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title></title>
+		<link href="https://fonts.googleapis.com/css?family=Heebo:100,300,400" rel="stylesheet">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/styles.css">
+		<script src="js/jquery-1.12.4.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</head>
+	<body>
+		<div class="container">
+			<div class="row header-row">
+				<div class="col-md-6 col-sm-4 col-xs-3" id="logo-div">
+					<img class="title-logo" src="img/logo.min.svg" alt="Udacity logo">
+				</div>
+				<div class="col-md-6 col-sm-8 col-xs-9 text-right text-uppercase">
+					<h1 class="title-super text-thin">Jane Doette</h1>
+					<h4>Front-end Ninja</h4>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<hr>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<picture>
+						<source media="(min-width:1200px)" srcset="img/main8.jpg 1x, img/main16.jpg 2x">
+						<source media="(min-width:992px)" srcset="img/main4.jpg 1x, img/main8.jpg 2x">
+						<source media="(min-width:768px)" srcset="img/main2.jpg 1x, img/main4.jpg 2x">
+						<img class="img-responsive" src="img/main.jpg" id="big-project-img" alt="Big Project">
+					</picture>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<h2 class="text-muted">Featured Work</h2>
+				</div>
+			</div>
+			<div class="row text-center">
+				<div class="col-md-4 col-sm-6">
+					<picture>
+						<source media="(min-width:1200px)" srcset="img/appify8.jpg 1x, img/appify16.jpg 2x">
+						<source media="(min-width:992px)" srcset="img/appify4.jpg 1x, img/appify8.jpg 2x">
+						<source media="(min-width:768px)" srcset="img/appify2.jpg 1x, img/appify4.jpg 2x">
+						<img class="img-responsive img-project" src="img/appify.jpg" alt="Appify" data-toggle="modal" data-target="#project-appify">
+					</picture>
+					<h3 class="text-uppercase">Appify</h3>
+					<p>https://github.com/udacity/appify</p>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<picture>
+						<source media="(min-width:1200px)" srcset="img/sunflower8.jpg 1x, img/sunflower16.jpg 2x">
+						<source media="(min-width:992px)" srcset="img/sunflower4.jpg 1x, img/sunflower8.jpg 2x">
+						<source media="(min-width:768px)" srcset="img/sunflower2.jpg 1x, img/sunflower4.jpg 2x">
+						<img class="img-responsive img-project" src="img/sunflower.jpg" alt="Sunflower" data-toggle="modal" data-target="#project-sunflower">
+					</picture>
+					<h3 class="text-uppercase">Sunflower</h3>
+					<p>https://github.com/udacity/sunflower</p>
+				</div>
+				<div class="col-md-4 col-sm-6">
+					<picture>
+						<source media="(min-width:1200px)" srcset="img/bokeh8.jpg 1x, img/bokeh16.jpg 2x">
+						<source media="(min-width:992px)" srcset="img/bokeh4.jpg 1x, img/bokeh8.jpg 2x">
+						<source media="(min-width:768px)" srcset="img/bokeh2.jpg 1x, img/bokeh4.jpg 2x">
+						<img class="img-responsive img-project" src="img/bokeh.jpg" alt="Bokeh" data-toggle="modal" data-target="#project-bokeh">
+					</picture>
+					<h3 class="text-uppercase">Bokeh</h3>
+					<p>https://github.com/udacity/bokeh</p>
+				</div>
+			</div>
+		</div>
+	    <!-- Modal Project Appify -->
+	    <div class="modal fade" id="project-appify" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	        <div class="modal-dialog">
+	            <div class="modal-content">
+	                <div class="modal-header">
+	                    <h4 class="modal-title">Appify Project</h4>
+	                </div>
+	                <div class="modal-body">
+						<picture>
+							<source media="(min-width:1200px)" srcset="img/appify8.jpg 1x, img/appify16.jpg 2x">
+							<source media="(min-width:992px)" srcset="img/appify4.jpg 1x, img/appify8.jpg 2x">
+							<source media="(min-width:768px)" srcset="img/appify2.jpg 1x, img/appify4.jpg 2x">
+							<img class="img-responsive img-detail" src="img/appify.jpg" alt="Appify">
+						</picture>
+	                    This was my first project. I learned a lot about app store and iOS development.
+	                </div>
+	                <div class="modal-footer">
+	                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+	    <!-- Modal Project Sunflower -->
+	    <div class="modal fade" id="project-sunflower" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	        <div class="modal-dialog">
+	            <div class="modal-content">
+	                <div class="modal-header">
+	                    <h4 class="modal-title">Sunflower Project</h4>
+	                </div>
+	                <div class="modal-body">
+						<picture>
+							<source media="(min-width:1200px)" srcset="img/sunflower8.jpg 1x, img/sunflower16.jpg 2x">
+							<source media="(min-width:992px)" srcset="img/sunflower4.jpg 1x, img/sunflower8.jpg 2x">
+							<source media="(min-width:768px)" srcset="img/sunflower2.jpg 1x, img/sunflower4.jpg 2x">
+	                    	<img class="img-responsive img-detail" src="img/sunflower.jpg">
+						</picture>
+	                    This project was related with sunflowers. I enjoyed researching about sunflowers.
+	                </div>
+	                <div class="modal-footer">
+	                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+	    <!-- Modal Project Bokeh -->
+	    <div class="modal fade" id="project-bokeh" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	        <div class="modal-dialog">
+	            <div class="modal-content">
+	                <div class="modal-header">
+	                    <h4 class="modal-title">Bokeh Project</h4>
+	                </div>
+	                <div class="modal-body">
+						<picture>
+							<source media="(min-width:1200px)" srcset="img/bokeh8.jpg 1x, img/bokeh16.jpg 2x">
+							<source media="(min-width:992px)" srcset="img/bokeh4.jpg 1x, img/bokeh8.jpg 2x">
+							<source media="(min-width:768px)" srcset="img/bokeh2.jpg 1x, img/bokeh4.jpg 2x">
+	                    	<img class="img-responsive img-detail" src="img/bokeh.jpg">
+						</picture>
+	                    This was a web application project. I was responsible for the front-end. I learned a lot about HTML and CSS.
+	                </div>
+	                <div class="modal-footer">
+	                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	                </div>
+	            </div>
+	        </div>
+	    </div>
+	</body>
+</html>
